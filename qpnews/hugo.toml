@@ -1,0 +1,45 @@
+baseURL = '/'
+languageCode = 'ru-ru'
+defaultContentLanguage = 'ru'
+# title = 'Новости QP ОС'
+theme = 'mainroad'
+pagination.pagerSize = '10'
+
+[Params]
+  description = 'Новости и история развития операционной системы QP OC'
+  copyright = 'ООО "НТП Криптософт"'
+  readmore = true
+  toc = true
+  pager = true
+  post_meta = ["author", "date", "categories"] # Order of post meta information
+  mainSections = ["post", "news"]
+  dateformat = "02 January 2006"
+
+[Params.style.vars]
+  highlightColor = "#a0e5f6"
+
+[Params.logo]
+  image = "img/logo.png"
+
+[Params.thumbnail]
+  visibility = ["list", "post", "news"] # Control thumbnail visibility
+
+[Params.sidebar]
+  home = "right" # Configure layout for home page
+  list = "left"  # Configure layout for list pages
+  single = false # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["search", "recent", "categories", "taglist"]
+
+[Params.widgets]
+  recent_num = 5 # Set the number of articles in the "Recent articles" widget
+  categories_counter = true # Enable counter for each category in "Categories" widget
+  tags_counter = true # Enable counter for each tag in "Tags" widget
+  
+[[module.mounts]]
+source = 'static'
+target = 'static'
+
+[[module.mounts]]
+source = 'img'
+target = 'static/img'
