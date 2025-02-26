@@ -19,15 +19,15 @@ pagination.pagerSize = '10'
   highlightColor = "#a0e5f6"
 
 [Params.logo]
-  image = "img/logo.png"
+  image = "images/logo.png"
 
 [Params.thumbnail]
   visibility = ["list", "post", "news"] # Control thumbnail visibility
 
 [Params.sidebar]
   home = "right" # Configure layout for home page
-  list = "left"  # Configure layout for list pages
-  single = false # Configure layout for single pages
+  list = "right"  # Configure layout for list pages
+  single = "right" # Configure layout for single pages
   # Enable widgets in given order
   widgets = ["search", "recent", "categories", "taglist"]
 

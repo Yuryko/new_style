@@ -4,7 +4,7 @@ author: Орлов Михаил
 type: post
 date: 2024-11-14
 thumbnail:
-  src: "/img/wp-content/uploads/2024/11/llvm_cmake_ninja-3.png"
+  src: "/wordpress/img/wp-content/uploads/2024/11/llvm_cmake_ninja-3.png"
   visibility:
     -list
 categories:
@@ -23,6 +23,6 @@ tags:
 
 Таким образом, в QP ОС появилась полная экосистема разработки, состоящая из LLVM, CMake и Ninja, которая позволяет осуществлять полноценную нативную разработку.
 
-![wp-image-4610](/img/wp-content/uploads/2024/11/14.11.2024-11.07.53.png) 
+![wp-image-4610](/wordpress/img/wp-content/uploads/2024/11/14.11.2024-11.07.53.png) 
 
   
